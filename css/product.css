@@ -1,0 +1,197 @@
+main {
+    position: relative;
+}
+
+main .banner {
+    position: relative;
+    background: url("../img/product/Products_and_solutions_banner.png") center center no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+
+main .banner .title {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #fff;
+}
+
+main .content .mode {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding-bottom: 105px;
+}
+main .content .mode p{
+    margin: 0;
+    line-height: 25px;
+}
+main .content .mode img {
+    height: 366px;
+    padding-top: 195px;
+    padding-right: 56px;
+}
+
+main .content .mode .text {
+    width: 589px;
+    font-size: 16px;
+    color: rgba(112, 121, 128, 1);
+    text-indent: 2em;
+    padding-top: 120px;
+}
+
+main .content .mode .text .title {
+    font-size: 24px;
+    color: rgba(50, 58, 64, 1);
+    text-indent: 0;
+    text-align: center;
+    padding-bottom: 39px;
+}
+
+main .videoSystem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 143px 200px 59px ;
+    background: #E8F4FF;
+    position: relative;
+}
+/* main .videoSystem .itemWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+} */
+main .videoSystem .title {
+    position: absolute;
+    font-size: 24px;
+    color: rgba(50, 58, 64, 1);
+    margin:0;
+    top: 74px;
+}
+
+
+main .videoSystem .item {
+    width: 285px;
+    height: 268px;
+    cursor: pointer;
+    background: #fff;
+    margin: 12px 8px;
+    box-sizing: border-box;
+}
+main .videoSystem .item:hover {
+    color: #0080FF;
+    box-shadow: 0 0 15px 2px #B4DBFF;
+}
+
+main .videoSystem .item img {
+    width: 222px;
+    height: 148px;
+    margin: 35px 29px 0px 34px;
+    display: inline-block;
+}
+
+main .videoSystem .item p {
+    text-align: center;
+    
+}
+main .videoSystem .item a{
+    text-decoration:none;
+    color: rgba(17, 17, 17, 1);
+    font-size: 14px;
+    font-family: Adobe Heiti Std R;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .system {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main .system .title {
+    font-size: 24px;
+    color: rgba(50, 58, 64, 1);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 110px;
+}
+
+main .system .systemNav {
+    padding-left: 0;
+}
+
+main .system .systemNav li {
+    margin: 0 119px 48px 60px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: rgba(50, 58, 64, 1);
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+}
+
+main .system .systemNav li.active {
+    border-bottom: 3px solid #0080FF;
+    border-radius: 2px;
+    color: #0080FF;
+}
+
+main .system .content-first,
+main .system .content-second,
+main .system .content-thrid {
+    font-size: 16px;
+    color: rgba(112, 121, 128, 1);
+    text-indent: 2em;
+}
+main .system .content-first .img-1{
+    margin: 62px auto;
+    display: block;
+}
+main .system .content-second p{
+    margin-bottom: 60px;
+}
+main .system .content-thrid .img-1{
+    width: 691px;
+    display: block;
+    margin: 53px auto 49px;
+    background: #fff;
+}
+main .system .content-thrid img{
+    margin: 53px auto 49px;
+}
+main .app {
+    padding: 69px 350px 0;
+    margin: 0 auto;
+    margin-top: 130px;
+    background: #E8F4FF;
+}
+
+main .app .title {
+    font-size: 24px;
+    color: rgba(50, 58, 64, 1);
+    text-align: center;
+}
+
+main .app p:not(.title) {
+    font-size: 16px;
+    color: rgba(112, 121, 128, 1);
+    text-indent: 2em;
+}
+main .app .imgWrap {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 63px;
+}

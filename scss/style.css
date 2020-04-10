@@ -1,0 +1,244 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    height: 640px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide{
+    background-image: url("./img/index/home_banner_p1 .png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-button-next {
+    background-image: url("./img/index/selected_arrow_right.png")
+}
+
+.swiper-button-prev {
+    background-image: url("./img/index/selected_arrow_left.png")
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 50px;
+    height: 50px;
+    margin-top: -22px;
+    margin-left: 335px;
+    margin-right: 335px;
+    z-index: 10;
+    background-size: 50px 50px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+#topNavBar {
+    color: #000;
+    z-index: 3;
+    width: 100%;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.4s ease-out;
+}
+
+#topNavBar.sticky {
+    padding: 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 1);
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.4);
+}
+
+#topNavBar .welcome {
+    font-size: 14px;
+    color: #323A40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+nav img {
+    padding: 8px 0;
+}
+
+nav .munu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    margin-right: -15px;
+}
+
+nav .munu li a {
+    padding: 25px 30px 25px 30px;
+    font-size: 18px;
+    color: #323A40;
+    text-decoration: none;
+}
+
+nav .munu li a:hover {
+    color: #1190FF;
+    border-bottom: 2px solid #1190FF;
+    border-radius: 2px;
+}
+nav .munu li .active{
+    color: #1190FF;
+    border-bottom: 2px solid #1190FF;
+    border-radius: 2px;
+}
+nav .munu li i{
+    color: #1190FF;
+    height: 3px;
+    width: 74px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+footer {
+    background: #232730;
+    height: 380px;
+    color: #fff;
+    line-height: 21px;
+    position: relative;
+}
+
+footer .info {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+footer table {
+    word-break: break-all;
+    table-layout: fixed;
+    width: 62%;
+    /* border: 1px solid #fff; */
+}
+
+/* footer table td{
+    border: 1px solid #fff;
+} */
+
+footer table a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer table tr:first-child {
+    font-size: 14px;
+}
+
+footer table tr:not(:first-child) a {
+    font-size: 14px;
+    color: #707980;
+}
+
+footer table tr:first-child td {
+    padding: 35px 0 20px;
+}
+
+footer table tr td:nth-child(1) {
+    width: 115px;
+}
+
+footer table tr td:nth-child(2) {
+    width: 150px;
+}
+
+footer table tr td:nth-child(3) {
+    width: 260px;
+}
+
+footer .companyInfo img {
+    position: absolute;
+    top: 30px;
+    right: 36.5%;
+}
+
+footer .companyInfo {
+    margin-top: 24px;
+    margin-right: 10px;
+    
+}
+
+footer .companyInfo p:nth-child(2) {
+    font-size: 26px;
+    font-family: FZLTTHK--GBK1-0;
+    line-height: 0;
+}
+
+footer .companyInfo p:nth-child(3) {
+    font-size: 16px;
+    font-family: FZLTTHK--GBK1-0;
+    line-height: 0;
+}
+
+footer .companyInfo p:nth-child(5) {
+    font-size: 20px;
+    line-height: 21px;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 4px;
+    margin-right: 170px;
+}
+
+footer .companyInfo p:nth-child(7),
+footer .companyInfo p:nth-child(9) {
+    font-size: 12px;
+    line-height: 0;
+}
+footer .filing{
+    position: absolute;
+    bottom: 0px;
+    left: 18%;
+    color: #707980;
+}

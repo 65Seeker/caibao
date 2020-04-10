@@ -1,0 +1,79 @@
+main .download {
+    background: #E8F4FF;
+    width: 1920px;
+    height: 656px;
+}
+
+main .download .title {
+    color: #323A40;
+    font-size: 32px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 110px;
+    margin: 0;
+}
+
+main .download .pc {
+    width: 240px;
+    margin: 79px 59px 107px 0px;
+}
+
+main .download .pc .content {
+    width: 240px;
+    height: 240px;
+    background: rgba(0, 128, 255, 1);
+    border-radius: 80px;
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    vertical-align: middle;
+    padding: 64px 44px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+main .download .pc .content p {
+    margin: 21px 0 25px;
+}
+
+main .download .pc p {
+    margin: 0;
+}
+
+main .download .teacher .content,
+main .download .student .content {
+    width: 240px;
+    height: 240px;
+    background: #fff;
+    border-radius: 80px;
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    vertical-align: middle;
+    padding: 37px 38px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+main .download .teacher,
+main .download .student {
+    width: 240px;
+    margin: 79px 59px 107px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(50, 58, 64, 1);
+    line-height: 21px;
+    text-align: center;
+    
+}
+main .download .student{
+    margin: 79px 0px 107px 0px;
+}
+main .download .student p,
+main .download .teacher p{
+    margin: 27px 0 11px;
+}

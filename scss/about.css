@@ -1,0 +1,152 @@
+main {
+    position: relative;
+}
+
+main .banner {
+    position: relative;
+    background: url("../img/about/about_the_only_treasure_banner.png") center center no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+
+main .banner .title {
+    position: absolute;
+    top: 27%;
+    left: 18.3%;
+}
+
+main .banner .title p:first-child {
+    font-size: 48px;
+    color: #fff;
+}
+
+main .banner .title p:last-child {
+    color: #fff;
+    font-size: 24px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 4px;
+}
+
+main .introduction {
+    display: flex;
+    justify-content: center;
+    width: 62.5%;
+    margin: 118px auto 127px;
+}
+
+main .introduction .left {
+    width: 502px;
+}
+
+main .introduction .right {
+    width: 600px;
+}
+
+main .introduction .left p:first-child {
+    font-size: 18px;
+    margin: 0;
+}
+
+main .introduction .left p:last-child {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+main .introduction .right {
+    font-size: 16px;
+    color: rgba(112, 121, 128, 1);
+    margin-left: 120px;
+    text-indent: 2em;
+}
+
+main .honor {
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+main .honor .title {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+}
+
+main .honor .certificate {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+main .honor .certificate .item {
+    padding: 50px 44px;
+    position: relative;
+}
+
+main .honor .certificate .item:hover {
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
+    color: #0088FF;
+}
+
+main .honor .certificate .item img {
+    width: 277px;
+    height: 292px;
+}
+
+main .honor .certificate .item .seeMore {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 44px;
+    padding: 0;
+    height: 292px;
+    width: 277px;
+    text-align: center;
+    line-height: 292px;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+main .honor .certificate .item .seeMore:hover {
+    display: block !important;
+}
+
+
+main .honor .certificate .item p {
+    font-size: 16px;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+main .mask {
+    background: rgba(0, 0, 0, 0.7) center center no-repeat;
+    height: 100%;
+    width: 1900px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+main .mask .close {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    position: absolute;
+    top: 84%;
+    left: 60.2%;
+    cursor: pointer;
+}
+main .history{
+    width: 100%;
+    height: 766px;
+    background: #E8F4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

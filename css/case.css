@@ -1,0 +1,66 @@
+main .banner {
+    position: relative;
+    background: url("../img/case/typical_case_banner.png") center center no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+main .banner .title {
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 240px 0 312px;
+    margin: 0;
+}
+
+main .banner .bannerNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 28, 42, 0.5);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0;
+    height: 52px;
+    padding: 0;
+}
+
+main .banner .bannerNav .item {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 17px 15px;
+}
+main .banner .bannerNav .item:first-child{
+    margin-left:  375px; 
+}
+main .banner .bannerNav .item:hover,
+main .banner .bannerNav .item.active {
+    background: rgba(17, 144, 255, 0.5);
+
+}
+
+main .content {
+    line-height: 2;
+    width: 1210px;
+    margin: 97px auto 66px;
+    list-style: none;
+    padding: 0;
+}
+
+main .content li .title {
+    font-size: 24px;
+    color: rgba(50, 58, 64, 1);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+main .content li p:not(.title) {
+    text-indent: 2em;
+    color: #707980;
+    font-size: 16px;
+    margin: 0;
+}

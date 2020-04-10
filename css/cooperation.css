@@ -1,0 +1,80 @@
+main .banner {
+    position: relative;
+    background: url("../img/cooperation/partner_banner.png") center center no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 0;
+}
+
+main .banner .title {
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding-top: 230px;
+}
+main .banner .title p{
+    margin: 0;
+}
+main .content {
+line-height: 2;
+width: 1210px;
+margin: 97px auto 0;
+list-style: none;
+padding: 0;
+}
+main .content .title {
+    font-size: 24px;
+    color: rgba(50, 58, 64, 1);
+    text-align: center;
+    margin: 138px 0 60px;
+}
+
+main .contactWrap {
+    position: relative;
+    height: 340px;
+    width: 1920px;
+    background: #E8F4FF;
+    margin-left: -346px;
+}
+
+main .contactWrap .contact {
+    width: 1200px;
+    margin: 0px auto;
+    padding-top: 30px;
+
+}
+
+main .contactWrap .contact .center {
+    font-size: 18px;
+    color: rgba(50, 58, 64, 1);
+    line-height: 21px;
+}
+
+
+main .contactWrap .contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main .contactWrap .contact ul li {
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(112, 121, 128, 1);
+}
+main .contactWrap .contact .tel{
+    position: absolute;
+    top: 84px;
+left: 308px;
+}
+main .contactWrap .contact .mail{
+    position: absolute;
+    top: 87px;
+    left: 626px;
+}
+main .contactWrap .contact .map {
+    position: absolute;
+    top: 0px;
+    left: 1112px;
+}

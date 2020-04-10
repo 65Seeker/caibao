@@ -1,0 +1,132 @@
+main {
+    position: relative;
+}
+
+main .banner {
+    position: relative;
+    background: url("../img/about/about_the_only_treasure_banner.png") center center no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+
+main .banner .title {
+    position: absolute;
+    top: 27%;
+    left: 18.3%;
+}
+
+main .banner .title p:first-child {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 29px;
+}
+
+main .banner .title p:last-child {
+    color: #fff;
+    font-size: 24px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 4px;
+}
+
+main .introduction {
+    display: flex;
+    justify-content: center;
+    width: 62.5%;
+    margin: 118px auto 127px;
+}
+
+main .introduction .left {
+    width: 502px;
+}
+
+main .introduction .right {
+    width: 600px;
+    line-height: 1.5;
+    text-align:justify; 
+}
+
+main .introduction .left p:first-child {
+    font-size: 18px;
+    margin: 0;
+    color: rgba(50, 58, 64, 1);
+}
+
+main .introduction .left p:last-child {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0;
+    margin-top: 20px;
+    color: rgba(50, 58, 64, 1);
+}
+
+main .introduction .right {
+    font-size: 16px;
+    color: rgba(112, 121, 128, 1);
+    margin-left: 120px;
+    text-indent: 2em;
+}
+
+main .honor {
+    width: 66.5%;
+    margin: 0 auto;
+}
+
+main .honor .title {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: rgba(50, 58, 64, 1);
+    margin-bottom: 50px;
+}
+
+main .honor .certificate {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row wrap;
+    margin-bottom: 110px;
+}
+
+main .honor .certificate .item {
+    padding: 40px 30px;
+    position: relative;
+    border: 2px solid rgba(242, 246, 249, 1);
+    margin: 0px 40px 40px 0px;
+}
+
+main .honor .certificate .item:nth-child(3n) {
+    margin: 0px 0px 40px 0px;
+}
+
+main .honor .certificate .item img {
+    width: 277px;
+    height: 332px;
+}
+main .honor .certificate .item .smallImg {
+    width: 277px;
+    height: 203px;
+    margin: 64px 0;
+}
+
+
+main .honor .certificate .item p {
+    font-size: 16px;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+main .history {
+    width: 100%;
+    height: 766px;
+    background: #E8F4FF;
+    text-align: center;
+}
+
+main .history .title {
+    font-size: 30px;
+    color: rgba(50, 58, 64, 1);
+    line-height: 45px;
+    padding-top: 110px;
+    margin-bottom: 80px;
+}

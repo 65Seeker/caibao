@@ -1,0 +1,373 @@
+@function px($px) {
+    @return $px/$designWidth*10+rem;
+}
+
+$designWidth:1920;
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    // scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: px(14);
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.clearfix {
+    z-index: 1;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    height: px(940);
+    text-align: center;
+    font-size: px(18);
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide {
+    background-image: url("../img/index/home_banner_p1 .png");
+    background-size: px(1900) px(940);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swiper-button-next {
+    background-image: url("../img/index/default_arrow_right.png")
+}
+
+.swiper-button-prev {
+    background-image: url("../img/index/default_arrow_left.png")
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: px(50);
+    height: px(50);
+    margin-top: -px(22);
+    margin-left: px(335);
+    margin-right: px(335);
+    z-index: 10;
+    background-size: px(50) px(50);
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+#topNavBar {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.4s ease-out;
+    word-break: keep-all;
+}
+
+#topNavBar.sticky {
+    padding: 0;
+    color: #3d4451;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.4);
+}
+
+#topNavBar .welcome {
+    font-size: px(14);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: px(40);
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+nav img {
+    width: px(115);
+    height: px(60);
+    padding: px(8) 0;
+}
+
+nav .munu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    margin-right: -px(15);
+}
+
+nav .munu li a {
+    padding: px(25) px(30);
+    font-size: px(18);
+    color: #fff;
+    text-decoration: none;
+    word-break: keep-all;
+}
+
+nav .munu li a:hover {
+    color: #1190FF;
+    border-bottom: 2px solid #1190FF;
+    border-radius: 2px;
+}
+
+nav .munu li .active {
+    color: #1190FF;
+    border-bottom: 2px solid #1190FF;
+    border-radius: 2px;
+}
+
+footer {
+    background: #232730;
+    height: px(380);
+    color: #fff;
+    line-height: px(21);
+    position: relative;
+    width: 100%;
+}
+
+footer .info {
+    margin: 0 auto;
+}
+
+footer table {
+    word-break: break-all;
+    table-layout: fixed;
+    margin-left: px(360);
+    width: px(700)
+    /* border: 1px solid #fff; */
+}
+
+/* footer table td{
+    border: 1px solid #fff;
+} */
+
+footer table a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer table tr:first-child {
+    font-size: px(14);
+}
+
+footer table tr:not(:first-child) a {
+    font-size: px(14);
+    color: #707980;
+}
+
+footer table tr:first-child td {
+    padding: px(35) 0 px(20);
+}
+footer table tr td{
+    // text-align: center;
+}
+footer table tr td:nth-child(1) {
+    width: px(120);
+}
+
+footer table tr td:nth-child(2) {
+    width: px(145);
+}
+
+footer table tr td:nth-child(3) {
+    width: px(120);
+}
+
+footer table tr td:nth-child(4) {
+    width: px(120);
+    padding-left: px(40)
+}
+
+footer table tr td:nth-child(5) {
+    width: px(145);
+}
+
+footer .companyInfo img {
+    position: absolute;
+    left: -13%;
+    top: 2%;
+    width: px(38);
+}
+
+footer .companyInfo {
+    margin-top: px(24);
+    margin-left: px(140);
+    position: relative;
+}
+
+footer .companyInfo p:nth-child(2) {
+    font-size: px(26);
+    font-family: FZLTTHK--GBK1-0;
+    font-weight:bold;
+    line-height: 0;
+}
+
+footer .companyInfo p:nth-child(3) {
+    font-size: px(16);
+    font-family: FZLTTHK--GBK1-0;
+    font-weight:bold;
+    line-height: 0;
+}
+
+footer .companyInfo p:nth-child(5) {
+    font-size: px(20);
+    line-height: px(21);
+    border-bottom: 3px solid #fff;
+    padding-bottom: px(4);
+    margin-right: px(170);
+}
+
+footer .companyInfo p:nth-child(7),
+footer .companyInfo p:nth-child(9) {
+    font-size: px(12);
+    line-height: 0;
+}
+
+footer .filing {
+    position: absolute;
+    bottom: 0px;
+    left: 18%;
+    color: #707980;
+}
+
+main .scrollTop{
+    background-image: url("../img/index/default_top.png");
+    background-size: 50px 50px;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+main .banner .swiper-slide a .clickMore1 {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: px(20);
+    padding: 15px 32px;
+}
+
+main .banner .swiper-slide .clickMore2 {
+    border: 2px solid #fff;
+    font-size: px(20);
+    padding: 3px 30px;
+}
+
+main .banner .swiper-slide .clickMore3 {
+    border: 2px solid #0080ff;
+    padding: 3px 64px;
+    border-radius: 30px;
+    font-size: px(26);
+}
+
+main .banner .swiper-slide a {
+    position: absolute;
+    top: 65%;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+main .banner .swiper-slide a .clickMore1:hover,
+main .banner .swiper-slide a .clickMore3:hover {
+    color: #fff;
+    background: #1190FF;
+    border: 2px solid #1190FF;
+}
+
+main .banner .swiper-slide .clickMore2:hover {
+    color: #eed174;
+    border: 2px solid #eed174;
+}
+
+main ul {
+    width: 62%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main ul li {
+    list-style: none;
+    font-size: px(18);
+    color: rgba(128, 134, 139, 1);
+}
+
+main ul li .title {
+    font-size: px(38);
+    color: #323A40;
+    text-align: center;
+    margin: px(80) 0 px(45);
+}
+
+main ul li p:nth-child(2) {
+    text-indent: 2em;
+}
+
+main ul li a {
+    text-decoration: none;
+    color: #fff;
+    background: #0088FF;
+    border-radius: 30px;
+    padding: px(13) px(25);
+    margin: px(60) auto;
+    display: block;
+    width: px(75);
+    text-align: center;
+    min-width: 48px;
+    word-break: keep-all;
+}
+
+main ul li img {
+    display: block;
+    margin: 0 auto;
+    width: px(580);
+    margin-bottom: px(140);
+}

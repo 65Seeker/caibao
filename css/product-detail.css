@@ -1,0 +1,63 @@
+main .banner {
+    position: relative;
+}
+
+main .banner .bannerNavWrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 52px;
+    background: rgba(44, 73, 112, 0.7);
+    border-radius: 0px 0px 20px 20px;
+}
+
+main .banner .bannerNavWrap .bannerNav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 19% 0 0;
+    font-size: 14px;
+    line-height: 52px;
+}
+
+main .banner .bannerNavWrap .bannerNav li a {
+    color: #ffffff;
+    text-decoration: none;
+    height: 52px;
+    display: block;
+}
+
+main .banner .bannerNavWrap .bannerNav li:first-child {
+    margin-right: 238px;
+}
+
+main .banner .bannerNavWrap .bannerNav li {
+    margin-left: 29px
+}
+
+main .banner .bannerNavWrap .bannerNav .tagetSystem {
+    color: #0080FF;
+}
+main .content{
+    width: 62.1%;
+    margin: 77px auto 116px;
+}
+main .content .title {
+    font-size: 24px;
+    color: rgba(50, 58, 64, 1);
+    text-align: center;
+}
+
+main .content .text {
+    font-size: 16px;
+    color: rgba(112, 121, 128, 1);
+    text-indent: 2em;
+    line-height: 1.5;
+    text-align: justify;
+}
+main .content img{
+    margin: 52px auto 0;
+    width: 716px;
+    display: block;
+}
